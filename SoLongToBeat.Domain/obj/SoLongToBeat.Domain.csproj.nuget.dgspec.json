@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlo\\source\\repos\\SoLongToBeat\\SoLongToBeat.Domain\\SoLongToBeat.Domain.csproj": {}
+    "C:\\Users\\carlo\\Source\\Repos\\SoLongToBeat\\SoLongToBeat.Domain\\SoLongToBeat.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlo\\source\\repos\\SoLongToBeat\\SoLongToBeat.Domain\\SoLongToBeat.Domain.csproj": {
+    "C:\\Users\\carlo\\Source\\Repos\\SoLongToBeat\\SoLongToBeat.Domain\\SoLongToBeat.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\source\\repos\\SoLongToBeat\\SoLongToBeat.Domain\\SoLongToBeat.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\Source\\Repos\\SoLongToBeat\\SoLongToBeat.Domain\\SoLongToBeat.Domain.csproj",
         "projectName": "SoLongToBeat.Domain",
-        "projectPath": "C:\\Users\\carlo\\source\\repos\\SoLongToBeat\\SoLongToBeat.Domain\\SoLongToBeat.Domain.csproj",
+        "projectPath": "C:\\Users\\carlo\\Source\\Repos\\SoLongToBeat\\SoLongToBeat.Domain\\SoLongToBeat.Domain.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\source\\repos\\SoLongToBeat\\SoLongToBeat.Domain\\obj\\",
+        "outputPath": "C:\\Users\\carlo\\Source\\Repos\\SoLongToBeat\\SoLongToBeat.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",

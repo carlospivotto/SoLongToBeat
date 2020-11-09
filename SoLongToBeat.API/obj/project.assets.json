@@ -9012,11 +9012,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carlo\\source\\repos\\SoLongToBeat\\SoLongToBeat.API\\SoLongToBeat.API.csproj",
+      "projectUniqueName": "C:\\Users\\carlo\\Source\\Repos\\SoLongToBeat\\SoLongToBeat.API\\SoLongToBeat.API.csproj",
       "projectName": "SoLongToBeat.API",
-      "projectPath": "C:\\Users\\carlo\\source\\repos\\SoLongToBeat\\SoLongToBeat.API\\SoLongToBeat.API.csproj",
+      "projectPath": "C:\\Users\\carlo\\Source\\Repos\\SoLongToBeat\\SoLongToBeat.API\\SoLongToBeat.API.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carlo\\source\\repos\\SoLongToBeat\\SoLongToBeat.API\\obj\\",
+      "outputPath": "C:\\Users\\carlo\\Source\\Repos\\SoLongToBeat\\SoLongToBeat.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9032,11 +9032,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\carlo\\source\\repos\\SoLongToBeat\\SoLongToBeat.Data\\SoLongToBeat.Data.csproj": {
-              "projectPath": "C:\\Users\\carlo\\source\\repos\\SoLongToBeat\\SoLongToBeat.Data\\SoLongToBeat.Data.csproj"
+            "C:\\Users\\carlo\\Source\\Repos\\SoLongToBeat\\SoLongToBeat.Data\\SoLongToBeat.Data.csproj": {
+              "projectPath": "C:\\Users\\carlo\\Source\\Repos\\SoLongToBeat\\SoLongToBeat.Data\\SoLongToBeat.Data.csproj"
             },
-            "C:\\Users\\carlo\\source\\repos\\SoLongToBeat\\SoLongToBeat.Domain\\SoLongToBeat.Domain.csproj": {
-              "projectPath": "C:\\Users\\carlo\\source\\repos\\SoLongToBeat\\SoLongToBeat.Domain\\SoLongToBeat.Domain.csproj"
+            "C:\\Users\\carlo\\Source\\Repos\\SoLongToBeat\\SoLongToBeat.Domain\\SoLongToBeat.Domain.csproj": {
+              "projectPath": "C:\\Users\\carlo\\Source\\Repos\\SoLongToBeat\\SoLongToBeat.Domain\\SoLongToBeat.Domain.csproj"
             }
           }
         }

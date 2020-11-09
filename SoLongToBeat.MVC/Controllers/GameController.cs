@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -16,6 +15,7 @@ namespace SoLongToBeat.MVC.Controllers
         ApiClient _apiClient = new ApiClient();
 
         // GET: GameController
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             List<Game> games = new List<Game>();
@@ -43,16 +43,18 @@ namespace SoLongToBeat.MVC.Controllers
         // POST: GameController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public IActionResult Create(Game game)
         {
-            try
+            var post = _apiClient.Client.PostAsJsonAsync<Game>("api/Game", game);
+            post.Wait();
+
+            var result = post.Result;
+            if (result.IsSuccessStatusCode)
             {
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index");
             }
-            catch
-            {
-                return View();
-            }
+
+            return View();
         }
 
         // GET: GameController/Edit/5

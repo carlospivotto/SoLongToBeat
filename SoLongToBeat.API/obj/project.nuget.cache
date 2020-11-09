@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IpvRd9UWvBNzblS+aW4btdjUINZKgPDOWP9PkiqO6uvuNGMBPNjUoBx6lcFe+5xsFsTRWW8FYJPM4BufAO3UqQ==",
+  "dgSpecHash": "64HxwH9+hrSHQ1tGieCKXMnNL61SBBGHf73BA5D0RezTtLWZQvtiAqNy2ksdH3GqCVXY1deGaMHkD5x+uvMHCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\carlo\\source\\repos\\SoLongToBeat\\SoLongToBeat.API\\SoLongToBeat.API.csproj",
+  "projectFilePath": "C:\\Users\\carlo\\Source\\Repos\\SoLongToBeat\\SoLongToBeat.API\\SoLongToBeat.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.9\\microsoft.aspnetcore.cryptography.internal.3.1.9.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.9\\microsoft.aspnetcore.cryptography.keyderivation.3.1.9.nupkg.sha512",
