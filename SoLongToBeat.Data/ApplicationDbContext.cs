@@ -20,7 +20,7 @@ namespace SoLongToBeat.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=tcp:solongtobeatapidbserver.database.windows.net,1433;Initial Catalog=SoLongToBeat.API_db;Persist Security Info=False;User ID=pivotto;Password=IUc!1102&;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+            optionsBuilder.UseSqlServer("Server=tcp:solongtobeatapidbserver.database.windows.net,1433;Initial Catalog=SoLongToBeat.API_db;Persist Security Info=False;User ID=pivotto;Password={PASSWORD};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         }
     }
 }
