@@ -29,9 +29,16 @@ namespace SoLongToBeat.MVC.Controllers
         }
 
         // GET: GameController/Details/5
-        public ActionResult Details(int id)
+        public async Task<IActionResult> Details(int id)
         {
-            return View();
+            Game game = new Game();
+            HttpResponseMessage res = await _apiClient.Client.GetAsync($"api/game/{id}");
+            if (res.IsSuccessStatusCode)
+            {
+                var result = res.Content.ReadAsStringAsync().Result;
+                game = JsonConvert.DeserializeObject<Game>(result);
+            }
+            return View(game);
         }
 
         // GET: GameController/Create
@@ -58,45 +65,55 @@ namespace SoLongToBeat.MVC.Controllers
         }
 
         // GET: GameController/Edit/5
-        public ActionResult Edit(int id)
+        public async Task<IActionResult> Edit(int id)
         {
-            return View();
+            Game game = new Game();
+            HttpResponseMessage res = await _apiClient.Client.GetAsync($"api/game/{id}");
+            if (res.IsSuccessStatusCode)
+            {
+                var result = res.Content.ReadAsStringAsync().Result;
+                game = JsonConvert.DeserializeObject<Game>(result);
+            }
+            return View(game);
         }
 
         // POST: GameController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async Task<IActionResult> Edit(Game game)
         {
-            try
+            var post = _apiClient.Client.PutAsJsonAsync<Game>($"api/Game/{game.Id}", game);
+            post.Wait();
+
+            var result = post.Result;
+            if (result.IsSuccessStatusCode)
             {
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index");
             }
-            catch
-            {
-                return View();
-            }
+
+            return View();
         }
 
         // GET: GameController/Delete/5
-        public ActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            return View();
+            Game game = new Game();
+            HttpResponseMessage res = await _apiClient.Client.GetAsync($"api/game/{id}");
+            if (res.IsSuccessStatusCode)
+            {
+                var result = res.Content.ReadAsStringAsync().Result;
+                game = JsonConvert.DeserializeObject<Game>(result);
+            }
+            return View(game);
         }
 
         // POST: GameController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public async Task<IActionResult> Delete(Game game)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            var delete = await _apiClient.Client.DeleteAsync($"api/Game/{game.Id}");
+            return RedirectToAction("Index");
         }
     }
 }
