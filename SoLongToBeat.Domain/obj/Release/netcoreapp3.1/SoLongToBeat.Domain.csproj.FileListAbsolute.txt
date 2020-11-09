@@ -1,0 +1,9 @@
+C:\Users\carlo\source\repos\SoLongToBeat\SoLongToBeat.Domain\bin\Release\netcoreapp3.1\SoLongToBeat.Domain.deps.json
+C:\Users\carlo\source\repos\SoLongToBeat\SoLongToBeat.Domain\bin\Release\netcoreapp3.1\SoLongToBeat.Domain.dll
+C:\Users\carlo\source\repos\SoLongToBeat\SoLongToBeat.Domain\bin\Release\netcoreapp3.1\SoLongToBeat.Domain.pdb
+C:\Users\carlo\source\repos\SoLongToBeat\SoLongToBeat.Domain\obj\Release\netcoreapp3.1\SoLongToBeat.Domain.csprojAssemblyReference.cache
+C:\Users\carlo\source\repos\SoLongToBeat\SoLongToBeat.Domain\obj\Release\netcoreapp3.1\SoLongToBeat.Domain.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\SoLongToBeat\SoLongToBeat.Domain\obj\Release\netcoreapp3.1\SoLongToBeat.Domain.AssemblyInfo.cs
+C:\Users\carlo\source\repos\SoLongToBeat\SoLongToBeat.Domain\obj\Release\netcoreapp3.1\SoLongToBeat.Domain.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\SoLongToBeat\SoLongToBeat.Domain\obj\Release\netcoreapp3.1\SoLongToBeat.Domain.dll
+C:\Users\carlo\source\repos\SoLongToBeat\SoLongToBeat.Domain\obj\Release\netcoreapp3.1\SoLongToBeat.Domain.pdb
